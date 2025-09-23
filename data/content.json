@@ -1,0 +1,179 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "id": 1,
+        "image": "/hero/slide1.png",
+        "title": "Viviane Studio",
+        "subtitle": "Transformando beleza em arte",
+        "description": "Hair Style e Make Up de alto padrão para momentos únicos"
+      },
+      {
+        "id": 2,
+        "image": "/hero/slide4.jpg",
+        "title": "Expertise em Beleza",
+        "subtitle": "Profissionalismo e sofisticação",
+        "description": "Técnicas avançadas para realçar sua beleza natural"
+      },
+      {
+        "id": 3,
+        "image": "/hero/slide3.jpg",
+        "title": "Produtos Exclusivos",
+        "subtitle": "Qualidade premium",
+        "description": "Linha completa de cosméticos e produtos de beleza"
+      },
+      {
+        "id": 4,
+        "image": "/hero/slide5.png",
+        "title": "Produtos Exclusivos",
+        "subtitle": "Qualidade premium",
+        "description": "Linha completa de cosméticos e produtos de beleza"
+      },
+      {
+        "id": 5,
+        "image": "/hero/slide6.png",
+        "title": "Produção Noivas",
+        "subtitle": "",
+        "description": ""
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": 1,
+      "name": "Hair Style",
+      "description": "Cortes, escova, penteados e tratamentos capilares com técnicas modernas",
+      "image": "/services/hair-style.jpg",
+      "features": [
+        "Cortes personalizados",
+        "Coloração profissional",
+        "Penteados para eventos",
+        "Tratamentos de hidratação"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Make Up",
+      "description": "Maquiagem profissional para todos os tipos de eventos e ocasiões",
+      "image": "/services/makeup.jpg",
+      "features": [
+        "Maquiagem para noivas",
+        "Make para eventos",
+        "Maquiagem social",
+        "Automaquiagem"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Massagem corporal",
+      "description": "Cuidados especiais para pele e cabelos com produtos premium",
+      "image": "/services/massagem.jpg",
+      "features": [
+        "Limpeza de pele",
+        "Hidratação facial",
+        "Massagem relaxante",
+        "Cuidados anti-aging"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Eudora Glam",
+      "description": "Linha de maquiagem profissional com alta pigmentação",
+      "price": "R$ 89,90",
+      "image": "/products/makeup.jpg",
+      "category": "Base"
+    },
+    {
+      "id": 2,
+      "name": "Paleta de Sombras Luxo",
+      "description": "12 tons harmoniosos para criar looks sofisticados",
+      "price": "R$ 159,90",
+      "image": "/products/paleta-sombras.jpg",
+      "category": "Sombras"
+    },
+    {
+      "id": 3,
+      "name": "Batom Matte Exclusivo",
+      "description": "Fórmula cremosa e duradoura em cores vibrantes",
+      "price": "R$ 49,90",
+      "image": "/products/batom-matte.jpg",
+      "category": "Batons"
+    },
+    {
+      "id": 4,
+      "name": "Shampoo Siàge",
+      "description": "Fórmula nutritiva para cabelos secos e danificados",
+      "price": "R$ 45,90",
+      "image": "/products/shampoo.jpg",
+      "category": "Hair Care"
+    },
+    {
+      "id": 5,
+      "name": "Cuidados com a pele",
+      "description": "Tratamento intensivo com ácido hialurônico",
+      "price": "R$ 129,90",
+      "image": "/products/neodermo.jpg",
+      "category": "Skincare"
+    },
+    {
+      "id": 6,
+      "name": "Niina Secrets Celebrate",
+      "description": "Set completo com 12 pincéis para maquiagem",
+      "price": "R$ 199,90",
+      "image": "/products/perfume.avif",
+      "category": "Acessórios"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "title": "Transformação Completa - Noiva",
+      "url": "/videos/thumb1.mp4",
+      "description": "Acompanhe uma transformação completa para o dia do casamento"
+    },
+    {
+      "id": 2,
+      "title": "Make Natural para o Dia a Dia",
+      "url": "/videos/thumb2.mp4",
+      "description": "Tutorial de maquiagem natural e prática"
+    },
+    {
+      "id": 3,
+      "title": "Penteado Elegante - Passo a Passo",
+      "url": "/videos/thumb3.mp4",
+      "description": "Como criar um penteado sofisticado para eventos"
+    }
+  ],
+  "socials": [
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/mtsvivianmakeup",
+      "icon": "instagram",
+      "followers": "15.2K"
+    }
+  ],
+  "contacts": {
+    "whatsapp": {
+      "number": "+5591982459071",
+      "message": "Olá! Gostaria de agendar um horário no Viviane Studio."
+    },
+    "phone": {
+      "number": "+5591982459071",
+      "display": "(91) 982459071"
+    },
+    "address": {
+      "street": "Rua das Flores, 123",
+      "neighborhood": "Jardins",
+      "city": "Belém",
+      "state": "PA",
+      "zipcode": "01234-567"
+    },
+    "hours": {
+      "weekdays": "09:00 - 18:00",
+      "saturday": "09:00 - 16:00",
+      "sunday": "Fechado"
+    }
+  }
+}
