@@ -1,4 +1,3 @@
-import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import HeroCarousel from "@/components/hero-carousel";
 import Navigation from "@/components/navigation";
@@ -26,12 +25,12 @@ export default function Home() {
         <section id="videos">
           <Videos videos={contentData.videos} />
         </section>
-        <section id="contact">
+        {/* <section id="contact">
           <Contact
             socials={contentData.socials}
             contacts={contentData.contacts}
           />
-        </section>
+        </section> */}
         <Footer />
       </main>
     </>
