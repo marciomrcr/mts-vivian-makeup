@@ -178,10 +178,10 @@ export default function Navigation() {
         <Button
           asChild
           size="default"
-          className="rounded-full w-10 h-10 md:w-12 md:h-12 bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-xl transition-all duration-300"
+          className="rounded-full w-11 h-11 md:w-12 md:h-12 bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-xl transition-all duration-300"
         >
           <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-            <FaWhatsapp className="h-4 w-4 md:h-5 md:w-5" />
+            <FaWhatsapp className="h-5 w-5" />
           </a>
         </Button>
       </motion.div>
