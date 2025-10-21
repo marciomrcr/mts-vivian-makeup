@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
-import { Clock, Facebook, Heart, Instagram, MapPin, Phone } from "lucide-react";
+import { Clock, Facebook, Heart, Instagram, Phone } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa6";
 
 const SocialIcon = ({ name }: { name: string }) => {
@@ -26,23 +26,13 @@ const SocialIcon = ({ name }: { name: string }) => {
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   const whatsappUrl =
-    "https://wa.me/5511999999999?text=Olá! Gostaria de agendar um horário no Viviane Studio.";
+    "https://wa.me/5591982459071?text=Olá! Gostaria de agendar um horário no Viviane Studio.";
 
   const socials = [
     {
       name: "Instagram",
-      url: "https://instagram.com/vivianestudio",
+      url: "https://instagram.com/mtsvivianmakeup",
       followers: "15.2K",
-    },
-    {
-      name: "Facebook",
-      url: "https://facebook.com/vivianestudio",
-      followers: "8.5K",
-    },
-    {
-      name: "TikTok",
-      url: "https://tiktok.com/@vivianestudio",
-      followers: "22.1K",
     },
   ];
 
@@ -145,15 +135,12 @@ export default function Footer() {
             <div className="space-y-3 text-sm text-gray-300">
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-rose-gold" />
-                <span>(11) 99999-9999</span>
+                <span>(91) 98245-9071</span>
               </div>
-              <div className="flex items-center gap-2">
-                <MapPin className="h-4 w-4 text-rose-gold" />
-                <span>Rua das Flores, 123 - Jardins, SP</span>
-              </div>
+
               <div className="flex items-center gap-2">
                 <Clock className="h-4 w-4 text-rose-gold" />
-                <span>Seg-Sex: 09:00-18:00</span>
+                <span>Atendimento agendado</span>
               </div>
             </div>
           </motion.div>
@@ -182,7 +169,7 @@ export default function Footer() {
                 variant="outline"
                 className="w-full border-rose-gold text-rose-gold hover:bg-rose-gold hover:text-black"
               >
-                <a href="tel:+5511999999999">
+                <a href="tel:+5591982459071">
                   <Phone className="h-4 w-4 mr-2" />
                   Ligar
                 </a>

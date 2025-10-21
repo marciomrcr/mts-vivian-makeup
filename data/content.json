@@ -3,31 +3,31 @@
     "slides": [
       {
         "id": 1,
-        "image": "/hero/slide1.png",
-        "title": "Viviane Studio",
-        "subtitle": "Transformando beleza em arte",
-        "description": "Hair Style e Make Up de alto padrão para momentos únicos"
+        "image": "/hero/negra.jpeg",
+        "title": "Pele Negra",
+        "subtitle": "",
+        "description": ""
       },
       {
         "id": 2,
         "image": "/hero/slide4.jpg",
-        "title": "Expertise em Beleza",
-        "subtitle": "Profissionalismo e sofisticação",
-        "description": "Técnicas avançadas para realçar sua beleza natural"
+        "title": "Eventos Sociais",
+        "subtitle": "",
+        "description": ""
       },
       {
         "id": 3,
-        "image": "/hero/slide3.jpg",
-        "title": "Produtos Exclusivos",
-        "subtitle": "Qualidade premium",
-        "description": "Linha completa de cosméticos e produtos de beleza"
+        "image": "/hero/formanda.jpeg",
+        "title": "Formandas",
+        "subtitle": "",
+        "description": ""
       },
       {
         "id": 4,
         "image": "/hero/slide5.png",
         "title": "Produtos Exclusivos",
-        "subtitle": "Qualidade premium",
-        "description": "Linha completa de cosméticos e produtos de beleza"
+        "subtitle": "",
+        "description": ""
       },
       {
         "id": 5,
@@ -42,13 +42,11 @@
     {
       "id": 1,
       "name": "Hair Style",
-      "description": "Cortes, escova, penteados e tratamentos capilares com técnicas modernas",
+      "description": "Cortes, Escova Modelada e tratamentos capilares com técnicas modernas",
       "image": "/services/hair-style.jpg",
       "features": [
-        "Cortes personalizados",
-        "Coloração profissional",
-        "Penteados para eventos",
-        "Tratamentos de hidratação"
+        "Montagem de Penteados com Baby-Liss",
+        "Tratamentos de hidratação Capilar"
       ]
     },
     {
@@ -56,45 +54,94 @@
       "name": "Make Up",
       "description": "Maquiagem profissional para todos os tipos de eventos e ocasiões",
       "image": "/services/makeup.jpg",
-      "features": [
-        "Maquiagem para noivas",
-        "Make para eventos",
-        "Maquiagem social",
-        "Automaquiagem"
-      ]
+      "features": []
     },
     {
       "id": 3,
+      "name": "Make Luxo",
+      "description": "",
+      "image": "/services/pnegra.jpeg",
+      "features": [
+        "A Beleza a seu Gosto",
+        "Cuidados",
+        "Técnicas especializadas",
+        "Profissionalismo"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pele Madura",
+      "description": "Tratamentos especiais para pele madura com produtos premium",
+      "image": "/services/madura.jpg",
+      "features": [
+        "Hidratação ",
+        "Preparação"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Make Artística",
+      "description": "Maquiagem para eventos culturais e festas temáticas",
+      "image": "/services/arts.jpeg",
+      "features": [
+        "Aplicação de pedrarias",
+        "Efeitos especiais",
+        "Técnicas especializadas",
+        "Profissionalismo"
+      ]
+    },
+    {
+      "id": 6,
       "name": "Massagem corporal",
       "description": "Cuidados especiais para pele e cabelos com produtos premium",
-      "image": "/services/massagem.jpg",
+      "image": "/services/massoterapia.jpg",
       "features": [
-        "Limpeza de pele",
-        "Hidratação facial",
+        "Shiatsu",
+        "Ventosa",
         "Massagem relaxante",
-        "Cuidados anti-aging"
+        "Thay-Massagem"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Design de sobrancelhas",
+      "description": "Cuidados especiais para sobrancelhas com técnicas modernas",
+      "image": "/services/sobrancelha.jpg",
+      "features": [
+        "Design personalizado",
+        "Hidratação",
+        "Técnicas de correção",
+        "Profissionalismo"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Penteados Especiais",
+      "description": "Penteados exclusivos para cada ocasião",
+      "image": "/services/cabelo.jpeg",
+      "features": [
+        "Tranças",
+        "Coques",
+        "Rabos de cavalo",
+        "Acessórios"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Epilação Facial com linha",
+      "description": "Cuidados especiais para a pele do rosto",
+      "image": "/services/epilacao.jpg",
+      "features": [
+        "Sobrancelhas",
+        "Buço",
+        "Rosto",
+        "Axilas"
       ]
     }
   ],
   "products": [
     {
       "id": 1,
-      "name": "Eudora Glam",
-      "description": "Linha de maquiagem profissional com alta pigmentação",
-      "price": "R$ 89,90",
-      "image": "/products/makeup.jpg",
-      "category": "Base"
-    },
-    {
-      "id": 2,
-      "name": "Paleta de Sombras Luxo",
-      "description": "12 tons harmoniosos para criar looks sofisticados",
-      "price": "R$ 159,90",
-      "image": "/products/paleta-sombras.jpg",
-      "category": "Sombras"
-    },
-    {
-      "id": 3,
       "name": "Batom Matte Exclusivo",
       "description": "Fórmula cremosa e duradoura em cores vibrantes",
       "price": "R$ 49,90",
@@ -110,7 +157,7 @@
       "category": "Hair Care"
     },
     {
-      "id": 5,
+      "id": 2,
       "name": "Cuidados com a pele",
       "description": "Tratamento intensivo com ácido hialurônico",
       "price": "R$ 129,90",
@@ -118,7 +165,7 @@
       "category": "Skincare"
     },
     {
-      "id": 6,
+      "id": 3,
       "name": "Niina Secrets Celebrate",
       "description": "Set completo com 12 pincéis para maquiagem",
       "price": "R$ 199,90",
@@ -135,15 +182,15 @@
     },
     {
       "id": 2,
-      "title": "Make Natural para o Dia a Dia",
+      "title": "Make Social para Eventos",
       "url": "/videos/thumb2.mp4",
-      "description": "Tutorial de maquiagem natural e prática"
+      "description": "Maquiagem profissional ajustada a sua"
     },
     {
       "id": 3,
-      "title": "Penteado Elegante - Passo a Passo",
-      "url": "/videos/thumb3.mp4",
-      "description": "Como criar um penteado sofisticado para eventos"
+      "title": "Penteado Elegante ",
+      "url": "/videos/penteado.mp4",
+      "description": "Penteados exclusivos para cada ocasião"
     }
   ],
   "socials": [

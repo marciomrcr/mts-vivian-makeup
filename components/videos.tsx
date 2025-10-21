@@ -77,7 +77,7 @@ export default function Videos({ videos }: VideosProps) {
             >
               <Card className="bg-gradient-to-br from-gray-800 to-gray-900 border-gray-700 h-full overflow-hidden group hover:scale-105 transition-all duration-300">
                 <div className="relative" onClick={() => openVideo(video)}>
-                  <div className="h-64 relative overflow-hidden">
+                  <div className="h-72 relative overflow-hidden">
                     <video
                       ref={(el) => {
                         videoRefs.current[video.id] = el;

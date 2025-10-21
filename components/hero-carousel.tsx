@@ -1,9 +1,8 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { HeroSlide } from "@/types/content";
 import { AnimatePresence, motion } from "framer-motion";
-import { ChevronLeft, ChevronRight, Play } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useState } from "react";
 
 interface HeroCarouselProps {
@@ -64,13 +63,13 @@ export default function HeroCarousel({ slides }: HeroCarouselProps) {
           {/* Content */}
           <div className="relative z-10 flex h-full items-center">
             <div className="container mx-auto px-4">
-              <div className="max-w-3xl">
+              <div className="max-w-3xl ">
                 <motion.div
                   initial={{ y: 50, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.3, duration: 0.8 }}
                 >
-                  <h1 className="mb-4 text-5xl font-bold text-white md:text-7xl lg:text-8xl">
+                  <h1 className="mb-4 text-3xl font-bold text-white md:text-6xl  md:mt-0 mt-96 ">
                     <span className="bg-gradient-to-r from-rose-gold to-champagne bg-clip-text text-transparent">
                       {slides[currentSlide].title}
                     </span>
@@ -83,17 +82,6 @@ export default function HeroCarousel({ slides }: HeroCarouselProps) {
                   <p className="mb-8 max-w-xl text-lg text-gray-200 md:text-xl">
                     {slides[currentSlide].description}
                   </p>
-
-                  <div className="flex flex-col gap-4 pt-32 md:pt-8 sm:flex-row">
-                    <Button
-                      variant="outline"
-                      size="lg"
-                      className="border-white text-white hover:bg-white hover:text-black"
-                    >
-                      <Play className="mr-2 h-4 w-4" />
-                      Ver Trabalhos
-                    </Button>
-                  </div>
                 </motion.div>
               </div>
             </div>
@@ -107,7 +95,7 @@ export default function HeroCarousel({ slides }: HeroCarouselProps) {
         className="absolute left-4 top-1/2 z-20 -translate-y-1/2 rounded-full bg-white/20 p-3 backdrop-blur-sm transition-all hover:bg-white/30 lg:left-8"
         aria-label="Slide anterior"
       >
-        <ChevronLeft className="h-6 w-6 text-white" />
+        <ChevronLeft className="md:h-6 md:w-6 h-4 w-4 text-white" />
       </button>
 
       <button
@@ -115,7 +103,7 @@ export default function HeroCarousel({ slides }: HeroCarouselProps) {
         className="absolute right-4 top-1/2 z-20 -translate-y-1/2 rounded-full bg-white/20 p-3 backdrop-blur-sm transition-all hover:bg-white/30 lg:right-8"
         aria-label="Próximo slide"
       >
-        <ChevronRight className="h-6 w-6 text-white" />
+        <ChevronRight className="md:h-6 md:w-6 h-4 w-4 text-white" />
       </button>
 
       {/* Slide Indicators */}
